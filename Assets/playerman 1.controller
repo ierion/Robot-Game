@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: move_new
-  m_Speed: 1.1
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5668224210762843195}
@@ -44,9 +44,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 1.0188738
+  m_TransitionDuration: 0.22163637
   m_TransitionOffset: 0.09901696
-  m_ExitTime: 0
+  m_ExitTime: 4.6772125e-10
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -118,7 +118,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -149,9 +149,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.96954
-  m_TransitionOffset: 0.007486843
-  m_ExitTime: 0.021274636
+  m_TransitionDuration: 0.11894989
+  m_TransitionOffset: 0.0074868407
+  m_ExitTime: 0.021274632
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
