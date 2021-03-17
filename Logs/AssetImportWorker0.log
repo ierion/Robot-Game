@@ -15,11 +15,11 @@ C:/Users/toby/Documents/GitHub/Robot-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58493
+50011
 Successfully changed project path to: C:/Users/toby/Documents/GitHub/Robot-Game
 C:/Users/toby/Documents/GitHub/Robot-Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,124 +35,22 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002829 seconds.
+Registered in 0.003506 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.488 seconds
+- Completed reload, in  1.614 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001481 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1737.
-Total: 1.679200 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.412800 ms  DeleteObjects: 0.078800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/alternate.mat
-  artifactKey: Guid(bd2a45da32222a9418e45ba702c9ce9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/alternate.mat using Guid(bd2a45da32222a9418e45ba702c9ce9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6745c2daef77677e3966b2f306cfea3b') in 0.356501 seconds
-  Import took 0.377640 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001475 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1257 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1781.
-Total: 1.488900 ms (FindLiveObjects: 0.147200 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.287500 ms  DeleteObjects: 0.013900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001916 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.357 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1784.
-Total: 3.662800 ms (FindLiveObjects: 0.163100 ms CreateObjectMapping: 0.047300 ms MarkObjects: 3.432400 ms  DeleteObjects: 0.018600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.983 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1787.
-Total: 1.492200 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.259300 ms  DeleteObjects: 0.013100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001043 seconds.
+Registered in 0.000888 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
@@ -161,61 +59,517 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.766 seconds
+- Completed reload, in  1.294 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
+Unloading 1275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1790.
-Total: 1.498400 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.283500 ms  DeleteObjects: 0.015100 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1737.
+Total: 2.236700 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.052800 ms MarkObjects: 1.813000 ms  DeleteObjects: 0.200000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/yellow.png
+  artifactKey: Guid(3bd521a9203a1fc4f9787d60e70af886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yellow.png using Guid(3bd521a9203a1fc4f9787d60e70af886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20213d4dc2383f5ab362315cd21624d') in 0.207039 seconds
+  Import took 0.209625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.150499 seconds.
+  path: Assets/yellow.png
+  artifactKey: Guid(3bd521a9203a1fc4f9787d60e70af886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yellow.png using Guid(3bd521a9203a1fc4f9787d60e70af886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8bf542db6270f90fddb5b33ead172f') in 0.014420 seconds
+  Import took 0.016563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.893145 seconds.
+  path: Assets/Materials/yellow.mat
+  artifactKey: Guid(b9162c06ac7eadd449299c96246fdb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/yellow.mat using Guid(b9162c06ac7eadd449299c96246fdb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481f80987bf402122cf135036442dbc5') in 0.154292 seconds
+  Import took 0.158451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.599127 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (2).png
+  artifactKey: Guid(cc5ac3a4bc6eaf448b4559ab5573211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (2).png using Guid(cc5ac3a4bc6eaf448b4559ab5573211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482e9f7959227300e967f00999df1623') in 0.012364 seconds
+  Import took 0.015910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.007258 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (3).png
+  artifactKey: Guid(6352e3ce0f6059e47b6c16c1cf056518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (3).png using Guid(6352e3ce0f6059e47b6c16c1cf056518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf537a639e3c23c98900d7a0a8b31c9') in 0.010706 seconds
+  Import took 0.013885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.580966 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (4).png
+  artifactKey: Guid(e9ff68446fd33d6448e8cf66a14c7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (4).png using Guid(e9ff68446fd33d6448e8cf66a14c7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6df4d8fc0a9577d90d8dc6c7e85a67f') in 0.010695 seconds
+  Import took 0.015272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (4).png
+  artifactKey: Guid(e9ff68446fd33d6448e8cf66a14c7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (4).png using Guid(e9ff68446fd33d6448e8cf66a14c7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6df4d8fc0a9577d90d8dc6c7e85a67f') in 0.011154 seconds
+  Import took 0.014853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.765457 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (5).png
+  artifactKey: Guid(18625c2cab6794146ba17cd9b9b22fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (5).png using Guid(18625c2cab6794146ba17cd9b9b22fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16491cca54f80bac620da113bfa9b81') in 0.014960 seconds
+  Import took 0.021047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.297805 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (6).png
+  artifactKey: Guid(ccf3c8d515a2a2b4a8927357f5be8a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (6).png using Guid(ccf3c8d515a2a2b4a8927357f5be8a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbc98648e99d6e49aa94477397d5059') in 0.011635 seconds
+  Import took 0.015144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.293741 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (7).png
+  artifactKey: Guid(34a8e067af8862a4c95f29b3e5790113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (7).png using Guid(34a8e067af8862a4c95f29b3e5790113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5444eec74659f83298acf0c243970e5') in 0.011763 seconds
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.894097 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (8).png
+  artifactKey: Guid(3a6cfb9f3da8ce14f9c33c0d2c7256ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (8).png using Guid(3a6cfb9f3da8ce14f9c33c0d2c7256ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bafb92453a8ed1714489920cb737800') in 0.011297 seconds
+  Import took 0.015910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.228377 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (9).png
+  artifactKey: Guid(1e12d7ac9a24ad44fb6b50280a72830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (9).png using Guid(1e12d7ac9a24ad44fb6b50280a72830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1df0a245668053c33e4271299365bcc') in 0.013304 seconds
+  Import took 0.016806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.524073 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (10).png
+  artifactKey: Guid(55e12ee7adfe6b549a7f468865ea3f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (10).png using Guid(55e12ee7adfe6b549a7f468865ea3f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5349340615e2298c3b1263a590b34786') in 0.009894 seconds
+  Import took 0.012099 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000848 seconds.
+Registered in 0.000982 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
+- Completed reload, in  1.305 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
+Unloading 1257 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1793.
-Total: 2.703600 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.051200 ms MarkObjects: 2.443500 ms  DeleteObjects: 0.017000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1783.
+Total: 2.298700 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.061100 ms MarkObjects: 1.961300 ms  DeleteObjects: 0.019300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 295.466947 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (2).mat
+  artifactKey: Guid(29475f4f1edc70643b5ddf2f953f34d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (2).mat using Guid(29475f4f1edc70643b5ddf2f953f34d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37658d65ee07bfde84b4f012da5bfa1e') in 0.068946 seconds
+  Import took 0.071769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (8).mat
+  artifactKey: Guid(7bb0e78316ca0a74587559d0a09f8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (8).mat using Guid(7bb0e78316ca0a74587559d0a09f8d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aafb1c260935044b581b3d804b8306d') in 0.013975 seconds
+  Import took 0.016268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (6).mat
+  artifactKey: Guid(1012c18f417f89140aff19a2e3cab858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (6).mat using Guid(1012c18f417f89140aff19a2e3cab858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f52a192191bbcc78f5881f533bba37') in 0.015095 seconds
+  Import took 0.017411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (3).mat
+  artifactKey: Guid(b0ef6d59137ac1741b027e79ae96884c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (3).mat using Guid(b0ef6d59137ac1741b027e79ae96884c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f2160dca9d8c1051318f7ab53ac918') in 0.012923 seconds
+  Import took 0.015145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (5).mat
+  artifactKey: Guid(d24c14671bccf554a906927c87b65fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (5).mat using Guid(d24c14671bccf554a906927c87b65fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd9284ac70b93da2f5b7b58e00bb5a8') in 0.011207 seconds
+  Import took 0.015525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (10).mat
+  artifactKey: Guid(6efbaa8f48536804e96ac5174b700183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (10).mat using Guid(6efbaa8f48536804e96ac5174b700183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec1add8e8178c51e65543636f4cb2f7') in 0.013509 seconds
+  Import took 0.015973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (9).mat
+  artifactKey: Guid(788a59d92657b734095bc513cb4047a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (9).mat using Guid(788a59d92657b734095bc513cb4047a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b3ed0da75afcc9c24c1c6673c2024') in 0.018294 seconds
+  Import took 0.021124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002005 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (4).mat
+  artifactKey: Guid(c29b13c19c6887b49b79b1b64b74cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (4).mat using Guid(c29b13c19c6887b49b79b1b64b74cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19260605fe8e2ea37cd71b972ce893af') in 0.017487 seconds
+  Import took 0.020357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (7).mat
+  artifactKey: Guid(4a85c1deefca97244aa2f135900c3f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (7).mat using Guid(4a85c1deefca97244aa2f135900c3f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcf8920671d7ca39b68bfb1349ad594') in 0.016140 seconds
+  Import took 0.020790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.464878 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (11).png
+  artifactKey: Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (11).png using Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c1eee286fbb5326c67b66e5007a4bc') in 0.021875 seconds
+  Import took 0.024676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.998668 seconds.
+  path: Assets/test sprite.png
+  artifactKey: Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test sprite.png using Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b675e2d9166d64cfc2e2dd8a665919e7') in 0.009734 seconds
+  Import took 0.013540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002010 seconds.
+  path: Assets/test sprite.png
+  artifactKey: Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test sprite.png using Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b675e2d9166d64cfc2e2dd8a665919e7') in 0.009660 seconds
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.590636 seconds.
+  path: Assets/Materials/test sprite.mat
+  artifactKey: Guid(59bca34b8cf33164ab4bd190535000b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/test sprite.mat using Guid(59bca34b8cf33164ab4bd190535000b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b6a1679809d6ed1cda89d63d7e1094') in 0.011356 seconds
+  Import took 0.014285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.759349 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (12).png
+  artifactKey: Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (12).png using Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1de15db210c3bef8b3c39afc735f4a0') in 0.012211 seconds
+  Import took 0.016586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006210 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (12).png
+  artifactKey: Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (12).png using Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1de15db210c3bef8b3c39afc735f4a0') in 0.020729 seconds
+  Import took 0.023168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.698284 seconds.
+  path: Assets/test_w.png
+  artifactKey: Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test_w.png using Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b9172e5b47b0a1a96a9d16f500a2ae') in 0.008485 seconds
+  Import took 0.012170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002892 seconds.
+  path: Assets/test_w.png
+  artifactKey: Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test_w.png using Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b9172e5b47b0a1a96a9d16f500a2ae') in 0.008169 seconds
+  Import took 0.010411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.537190 seconds.
+  path: Assets/test_2.png
+  artifactKey: Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test_2.png using Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75996013fa251144c65ebe1498a08a94') in 0.012024 seconds
+  Import took 0.014730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001811 seconds.
+  path: Assets/test_2.png
+  artifactKey: Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test_2.png using Guid(c6b666a592464e94eb7d60fa0413a21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75996013fa251144c65ebe1498a08a94') in 0.009885 seconds
+  Import took 0.013589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.832921 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (13).png
+  artifactKey: Guid(7ec6929dba2662745be23643f9866cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (13).png using Guid(7ec6929dba2662745be23643f9866cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0ac5dcecf7a6016450227bdf197562') in 0.015651 seconds
+  Import took 0.019007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003839 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (13).png
+  artifactKey: Guid(7ec6929dba2662745be23643f9866cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (13).png using Guid(7ec6929dba2662745be23643f9866cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0ac5dcecf7a6016450227bdf197562') in 0.008493 seconds
+  Import took 0.010884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.053139 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb39b40c93efedb23353903319186c0') in 0.005496 seconds
+  Import took 0.008070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.847870 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (14).png
+  artifactKey: Guid(c5467f35e52be89448247355c16edd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (14).png using Guid(c5467f35e52be89448247355c16edd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d881d9245d05448295b66b3aa5d58a') in 0.031830 seconds
+  Import took 0.035126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.801552 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (14).mat
+  artifactKey: Guid(a7fb5d3a90759284199105deade6100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (14).mat using Guid(a7fb5d3a90759284199105deade6100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cfb7876d549959e6dea3bc6d2ce5ea') in 0.035064 seconds
+  Import took 0.037807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007544 seconds.
+  path: Assets/Materials/New Piskel-1.png (40)-1.png (14).mat
+  artifactKey: Guid(a7fb5d3a90759284199105deade6100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Piskel-1.png (40)-1.png (14).mat using Guid(a7fb5d3a90759284199105deade6100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cfb7876d549959e6dea3bc6d2ce5ea') in 0.011752 seconds
+  Import took 0.014215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.437423 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (4)-1.png.png
+  artifactKey: Guid(6312bd4d8db788143ada7ad0a1476708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (4)-1.png.png using Guid(6312bd4d8db788143ada7ad0a1476708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab39164e3af7ec88dfedffef4331375') in 0.015018 seconds
+  Import took 0.017637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.684509 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (4)-1.png (1).png
+  artifactKey: Guid(ae1d20fe92221ae4d9e5bdb50bfff718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (4)-1.png (1).png using Guid(ae1d20fe92221ae4d9e5bdb50bfff718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b852bcc9d69f5cb6c339b9c259345cf') in 0.015157 seconds
+  Import took 0.018216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.506121 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (7).png
+  artifactKey: Guid(34a8e067af8862a4c95f29b3e5790113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (7).png using Guid(34a8e067af8862a4c95f29b3e5790113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c8581b8de34b8afa36bc6641ce0aa6') in 0.016500 seconds
+  Import took 0.019226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.710540 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (7)-1.png.png
+  artifactKey: Guid(2ce0a4c106c367348a3e7b184d3a265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (7)-1.png.png using Guid(2ce0a4c106c367348a3e7b184d3a265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a44dd5065778761345977687663324') in 0.014288 seconds
+  Import took 0.016983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007835 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (7)-1.png.png
+  artifactKey: Guid(2ce0a4c106c367348a3e7b184d3a265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (7)-1.png.png using Guid(2ce0a4c106c367348a3e7b184d3a265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a44dd5065778761345977687663324') in 0.008733 seconds
+  Import took 0.013371 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000930 seconds.
+Registered in 0.003525 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
+- Completed reload, in  1.610 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.5 MB.
+System memory in use before: 78.8 MB.
+System memory in use after: 78.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1796.
-Total: 1.472900 ms (FindLiveObjects: 0.133200 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.290500 ms  DeleteObjects: 0.013400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1792.
+Total: 1.811700 ms (FindLiveObjects: 0.216100 ms CreateObjectMapping: 0.054500 ms MarkObjects: 1.524300 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.9 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1795.
+Total: 7.285300 ms (FindLiveObjects: 0.420000 ms CreateObjectMapping: 0.445000 ms MarkObjects: 6.399500 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 587.809294 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (2).png
+  artifactKey: Guid(cc5ac3a4bc6eaf448b4559ab5573211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (2).png using Guid(cc5ac3a4bc6eaf448b4559ab5573211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0b25be14f0b42078aa15853ea82d7e') in 0.090635 seconds
+  Import took 0.125953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/test sprite.png
+  artifactKey: Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test sprite.png using Guid(c7cf8f3219e8ca84f975ee6c572ce27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781af3934af10aea55ee867d6bc8151e') in 0.026184 seconds
+  Import took 0.065632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/yellow.png
+  artifactKey: Guid(3bd521a9203a1fc4f9787d60e70af886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yellow.png using Guid(3bd521a9203a1fc4f9787d60e70af886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95156ff9e78dbadbf36269700f3b32f4') in 0.044548 seconds
+  Import took 0.047360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010018 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (10).png
+  artifactKey: Guid(55e12ee7adfe6b549a7f468865ea3f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (10).png using Guid(55e12ee7adfe6b549a7f468865ea3f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d031d451c72e722ccb57f8d0694b03c') in 0.012668 seconds
+  Import took 0.034193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (3).png
+  artifactKey: Guid(6352e3ce0f6059e47b6c16c1cf056518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (3).png using Guid(6352e3ce0f6059e47b6c16c1cf056518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f674e49d993a177da8e34d5e504106') in 0.165273 seconds
+  Import took 0.205773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029587 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (4).png
+  artifactKey: Guid(e9ff68446fd33d6448e8cf66a14c7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (4).png using Guid(e9ff68446fd33d6448e8cf66a14c7543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b11f337ae94ef06117f974850235843') in 0.046002 seconds
+  Import took 0.085442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (4)-1.png (1).png
+  artifactKey: Guid(ae1d20fe92221ae4d9e5bdb50bfff718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (4)-1.png (1).png using Guid(ae1d20fe92221ae4d9e5bdb50bfff718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c98660a143b26bafbc80130b4a595a') in 0.035266 seconds
+  Import took 0.041160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/New Piskel-1.png (40)-1.png (8).png
+  artifactKey: Guid(3a6cfb9f3da8ce14f9c33c0d2c7256ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Piskel-1.png (40)-1.png (8).png using Guid(3a6cfb9f3da8ce14f9c33c0d2c7256ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bea12194d13929b8b2f987ea113050') in 0.080142 seconds
+  Import took 0.085813 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.9 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1799.
+Total: 1.805600 ms (FindLiveObjects: 0.188800 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.551300 ms  DeleteObjects: 0.018400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
