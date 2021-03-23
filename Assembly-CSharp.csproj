@@ -47,9 +47,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\NewMovement.cs" />
-     <Compile Include="Assets\Jumping.cs" />
-     <Compile Include="Assets\ThirdPersonMovement.cs" />
+     <Compile Include="Assets\scripts\robot\NewMovement.cs" />
+     <Compile Include="Assets\scripts\robot\Jumping.cs" />
+     <Compile Include="Assets\scripts\robot\ThirdPersonMovement.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
