@@ -903,6 +903,7 @@ GameObject:
   - component: {fileID: 62422150}
   - component: {fileID: 62422149}
   - component: {fileID: 62422148}
+  - component: {fileID: 62422152}
   m_Layer: 0
   m_Name: Plane (71)
   m_TagString: Untagged
@@ -981,12 +982,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62422147}
   m_LocalRotation: {x: 0.49999928, y: 0.49999928, z: 0.5000007, w: 0.5000007}
-  m_LocalPosition: {x: 1.9014435, y: 67.470695, z: -49.45734}
+  m_LocalPosition: {x: 1.9014435, y: 77.470695, z: -49.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 217
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!95 &62422152
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62422147}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a5241bc8d0f8804bac40a540b0174cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &64762069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2771,7 +2791,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3883357de8a6cba49bbf9d80bf2ddee8, type: 2}
+  - {fileID: 2100000, guid: 53cac44f7799e66438d3fb21e49bb1fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19263,7 +19283,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e3bf82eb49de90e47b26d763722bcb00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.136
+      value: -4.49
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3bf82eb49de90e47b26d763722bcb00,
         type: 3}
@@ -19417,7 +19437,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e3bf82eb49de90e47b26d763722bcb00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.602095
+      value: 13.87
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3bf82eb49de90e47b26d763722bcb00,
         type: 3}
