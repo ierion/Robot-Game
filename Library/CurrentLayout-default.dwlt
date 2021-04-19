@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 17
+  controlID: 97
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 99
+  controlID: 98
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 100
+  controlID: 99
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,22 +375,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/models
+    - Assets/textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/models
+  - Assets/textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\toby\Documents\GitHub\Robot-Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fe450000
-    m_LastClickedID: 17918
-    m_ExpandedIDs: 00000000ee45000000ca9a3b
+    m_SelectedIDs: 00530000
+    m_LastClickedID: 21248
+    m_ExpandedIDs: 00000000ee52000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee450000
+    m_ExpandedIDs: 00000000ee520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000018730000ba600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -540,10 +540,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
-      m_SelectedIDs: 9ef0ffff
-      m_LastClickedID: -3938
-      m_ExpandedIDs: acefffffb6f0ffff50fbffff
+      scrollPos: {x: 0, y: 512}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: a2efffffdef3ffff72f4ffff5af6ffff0cfbffff50fbffffca6a0000a88f000012bc0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -604,9 +604,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 117.43631, y: 43.448723, z: -110.93087}
+    m_Target: {x: 67.32578, y: 10.417442, z: 107.73039}
     speed: 2
-    m_Value: {x: 117.43631, y: 43.448723, z: -110.93087}
+    m_Value: {x: 67.32578, y: 10.417442, z: 107.73039}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -653,13 +653,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.03635881, y: -0.8998643, z: 0.079304144, w: -0.42821354}
+    m_Target: {x: 0.1683876, y: 0.23465373, z: -0.041789565, w: 0.9568743}
     speed: 2
-    m_Value: {x: -0.03622653, y: -0.9001755, z: 0.079329506, w: -0.4267068}
+    m_Value: {x: 0.16825983, y: 0.23599772, z: -0.042025886, w: 0.95615244}
   m_Size:
-    m_Target: 74.482666
+    m_Target: 92.63098
     speed: 2
-    m_Value: 74.482666
+    m_Value: 88.64209
   m_Ortho:
     m_Target: 0
     speed: 2
