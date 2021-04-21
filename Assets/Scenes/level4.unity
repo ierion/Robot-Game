@@ -66472,6 +66472,7 @@ GameObject:
   - component: {fileID: 8537524471996870499}
   - component: {fileID: 3157196228825870245}
   - component: {fileID: 3157196228825870244}
+  - component: {fileID: 3157196228825870246}
   m_Layer: 0
   m_Name: Playerman
   m_TagString: Untagged
@@ -66521,6 +66522,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.46, z: -0.11}
+--- !u!114 &3157196228825870246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3157196228825870243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c8f138c9668f14ea82dc8216260c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &3849663078946527681
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -66549,6 +66562,8 @@ GameObject:
   - component: {fileID: 2046360084065404509}
   - component: {fileID: 3849663078946527681}
   - component: {fileID: 3849663078946527711}
+  - component: {fileID: 3849663078946527713}
+  - component: {fileID: 3849663078946527712}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Untagged
@@ -66618,6 +66633,31 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &3849663078946527712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3849663078946527710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c8f138c9668f14ea82dc8216260c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3849663078946527713
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3849663078946527710}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01637547, y: 0.008648272, z: 0.022037528}
+  m_Center: {x: -0.0008392404, y: 0.0022376361, z: 0.001948949}
 --- !u!1 &4561701621992791285
 GameObject:
   m_ObjectHideFlags: 0
@@ -66807,8 +66847,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: terminal_info
       objectReference: {fileID: 0}
+    - target: {fileID: 9063323689176468426, guid: fe2983f7bea537041b0c91aaf9c3f333,
+        type: 3}
+      propertyPath: m_TagString
+      value: npc
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe2983f7bea537041b0c91aaf9c3f333, type: 3}
+--- !u!1 &8144211482542002197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9063323689176468426, guid: fe2983f7bea537041b0c91aaf9c3f333,
+    type: 3}
+  m_PrefabInstance: {fileID: 8144211482542002196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8144211482542002198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8144211482542002197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5890074, y: 22.248646, z: 6.3185277}
+  m_Center: {x: 0.101695456, y: 10.624321, z: -0.014400085}
 --- !u!1 &8408855262264589038
 GameObject:
   m_ObjectHideFlags: 0
