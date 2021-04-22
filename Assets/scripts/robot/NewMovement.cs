@@ -66,7 +66,6 @@ public class NewMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
 
             //anims:
-            print("Moving");
             playerMovementAnim.SetBool("playerMove", true);
         }
         else
