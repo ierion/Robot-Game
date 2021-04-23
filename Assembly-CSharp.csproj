@@ -64,6 +64,11 @@
     <Compile Include="Assets\scripts\metdetector.cs" />
     <Compile Include="Assets\scripts\robot\ThirdPersonMovement.cs" />
     <Compile Include="Assets\scripts\MeltDaBot.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets\scripts\clickingTang.cs" />
+    <Compile Include="Assets\scripts\SceneSwitch.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

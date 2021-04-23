@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/levels/level4.unity
     guid: 147fb50aeb7f5a04c9541562e189934d
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/cutscene_end.unity
+    guid: 4d11074e0be8d664e96a01ac01dd441b
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/cutscene_level_1.unity
+    guid: 1f24ff0aa431eb243afcbca1594176a0
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/cutscene_level_1_2.unity
+    guid: a535c3a97cf608f4c9bd2f93ae8f5613
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/cutscene_level_2.unity
+    guid: 1b073a034717a03459fa4e2a63c96715
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/cutscene_level_3.unity
+    guid: 054ea71ca4868bd4c813e8ab47c86f51
   m_configObjects: {}
