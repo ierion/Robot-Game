@@ -15,11 +15,11 @@ C:/Users/toby/Documents/GitHub/Robot-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60359
+60694
 Successfully changed project path to: C:/Users/toby/Documents/GitHub/Robot-Game
 C:/Users/toby/Documents/GitHub/Robot-Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,579 +35,115 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002731 seconds.
+Registered in 0.002597 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
+- Completed reload, in  1.239 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002253 seconds.
+Registered in 0.000918 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
+- Completed reload, in  0.862 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1281 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 79.7 MB.
 System memory in use after: 79.8 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1750.
-Total: 2.193500 ms (FindLiveObjects: 0.522800 ms CreateObjectMapping: 0.096900 ms MarkObjects: 1.461100 ms  DeleteObjects: 0.111400 ms)
+Total: 1.741800 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.444300 ms  DeleteObjects: 0.106500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/New Terrain 4.asset
-  artifactKey: Guid(be1113721af05aa41ba6940f66c02971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 4.asset using Guid(be1113721af05aa41ba6940f66c02971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66acaf6e048c6eca3f8df94a26f22f57') in 0.047057 seconds
-  Import took 0.049154 seconds .
+  path: Assets/animations/robot
+  artifactKey: Guid(8f4c628609c46614fa948a3c8dd879e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/robot using Guid(8f4c628609c46614fa948a3c8dd879e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b936b8f963d5a18124773037b14a77e6') in 0.005491 seconds
+  Import took 0.007467 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/New Terrain 3.asset
-  artifactKey: Guid(2dbd359b0b757e94e8d889cdc01ab372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 3.asset using Guid(2dbd359b0b757e94e8d889cdc01ab372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6fe678c07de361f5c6be9b285418e8') in 0.008196 seconds
-  Import took 0.010140 seconds .
+  Time since last request: 0.000431 seconds.
+  path: Assets/animations/ice/icemodel_area3_2.controller
+  artifactKey: Guid(19c72ccb338a1184b9cb888b22254d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/ice/icemodel_area3_2.controller using Guid(19c72ccb338a1184b9cb888b22254d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8468fd4df21976a7c7a980dcae050e9f') in 0.043771 seconds
+  Import took 0.045878 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/New Terrain 2.asset
-  artifactKey: Guid(e8d3731ee2a71ac438cdff610ffa305b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 2.asset using Guid(e8d3731ee2a71ac438cdff610ffa305b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3420ea4e6034ff3c160cfda522ce57') in 0.011069 seconds
-  Import took 0.013537 seconds .
+  Time since last request: 0.000441 seconds.
+  path: Assets/animations/moving_platform
+  artifactKey: Guid(b8e12b438c2caf34e9fea2cdb22dd4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/moving_platform using Guid(b8e12b438c2caf34e9fea2cdb22dd4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05280ed595de48f10d0a679820064a0b') in 0.003841 seconds
+  Import took 0.005922 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/New Terrain 5.asset
-  artifactKey: Guid(0652c43864cfa07469928e242da68bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 5.asset using Guid(0652c43864cfa07469928e242da68bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7555b71e8e2dbf5efab558ef252b649') in 0.049214 seconds
-  Import took 0.051617 seconds .
+  Time since last request: 22.656119 seconds.
+  path: Assets/animations/ice/icemodel_4.controller
+  artifactKey: Guid(bf2365024e913d4418ac96dd665c0c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/ice/icemodel_4.controller using Guid(bf2365024e913d4418ac96dd665c0c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7dfce628bcf5bc5d7b4618453c0c9c') in 0.008041 seconds
+  Import took 0.010540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(0c981fa13dda37b48954fffc98287953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(0c981fa13dda37b48954fffc98287953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3dad3212dcf86aa0d9cb784f10e19d') in 0.008220 seconds
-  Import took 0.010168 seconds .
+  Time since last request: 25.517484 seconds.
+  path: Assets/animations/ice/ice_melt_4.anim
+  artifactKey: Guid(36d7fddfeee9cea418d9b008aafa1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/ice/ice_melt_4.anim using Guid(36d7fddfeee9cea418d9b008aafa1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eebf00cee3091c9fc4eb139532e8eda') in 0.008066 seconds
+  Import took 0.010424 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(f92141c913ab2be4f955ccd884468d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(f92141c913ab2be4f955ccd884468d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944b51c35f115c1420521f38a881df54') in 0.008511 seconds
-  Import took 0.010861 seconds .
+  Time since last request: 0.001992 seconds.
+  path: Assets/animations/ice/ice_melt_4.anim
+  artifactKey: Guid(36d7fddfeee9cea418d9b008aafa1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/ice/ice_melt_4.anim using Guid(36d7fddfeee9cea418d9b008aafa1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eebf00cee3091c9fc4eb139532e8eda') in 0.003807 seconds
+  Import took 0.006148 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/terminalController.cs
-  artifactKey: Guid(8bea50130c5a05c4aa3d2ee57143739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/terminalController.cs using Guid(8bea50130c5a05c4aa3d2ee57143739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876d0c60db25a3e0761522b50cea944e') in 0.032094 seconds
-  Import took 0.035008 seconds .
+  Time since last request: 68.773663 seconds.
+  path: Assets/animations/ice/icemodel_4_2.controller
+  artifactKey: Guid(e097a1d9f0099c94b86dbfb3705ad4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/ice/icemodel_4_2.controller using Guid(e097a1d9f0099c94b86dbfb3705ad4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d214e02c82c0956a54559f46cea2f05') in 0.007270 seconds
+  Import took 0.009641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/New Terrain 6.asset
-  artifactKey: Guid(192b94003fa93f44282f713021401f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 6.asset using Guid(192b94003fa93f44282f713021401f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83b2946404943bc502786045403bcdd') in 0.018316 seconds
-  Import took 0.021381 seconds .
+  Time since last request: 0.880674 seconds.
+  path: Assets/animations/ice/icemodel_4.controller
+  artifactKey: Guid(bf2365024e913d4418ac96dd665c0c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/ice/icemodel_4.controller using Guid(bf2365024e913d4418ac96dd665c0c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e089539fa54f50328b12d1ac629e49ab') in 0.005407 seconds
+  Import took 0.007508 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.859604 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(968f7569cd282a64c82cf3f265a60ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(968f7569cd282a64c82cf3f265a60ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b643f7e1844e9fdf8fece1e7b5e37371') in 0.004801 seconds
-  Import took 0.007339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000936 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(968f7569cd282a64c82cf3f265a60ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(968f7569cd282a64c82cf3f265a60ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b643f7e1844e9fdf8fece1e7b5e37371') in 0.004653 seconds
-  Import took 0.007092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.878070 seconds.
-  path: Assets/scripts
-  artifactKey: Guid(a67082cb17685a04ea4681672a65d3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts using Guid(a67082cb17685a04ea4681672a65d3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cfaeb6ce38b4ebee401d3098049cec') in 0.003372 seconds
-  Import took 0.005653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001025 seconds.
-  path: Assets/scripts
-  artifactKey: Guid(a67082cb17685a04ea4681672a65d3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts using Guid(a67082cb17685a04ea4681672a65d3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cfaeb6ce38b4ebee401d3098049cec') in 0.003354 seconds
-  Import took 0.005565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.862966 seconds.
-  path: Assets/scripts/metdetector.cs
-  artifactKey: Guid(d91dc8c101720cf4e9c15366a76a3f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/metdetector.cs using Guid(d91dc8c101720cf4e9c15366a76a3f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aee84babdcbb628085c336b71887d90') in 0.003381 seconds
-  Import took 0.005497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.083192 seconds.
-  path: Assets/scripts/sceneChanger.cs
-  artifactKey: Guid(6c8b230fb5e7f8746b16a949b811c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/sceneChanger.cs using Guid(6c8b230fb5e7f8746b16a949b811c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb9e1eebcec755db7a103b2315e932') in 0.003353 seconds
-  Import took 0.005384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.270853 seconds.
-  path: Assets/scripts/sceneloader
-  artifactKey: Guid(8d1114d9f938acd42aa4405c1afb14ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/sceneloader using Guid(8d1114d9f938acd42aa4405c1afb14ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0db7abda6bbe131a621154d1304ec89') in 0.005663 seconds
-  Import took 0.009057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.115045 seconds.
-  path: Assets/scripts/MeltDaBot.cs
-  artifactKey: Guid(9e9b289f6e040274e9e78f0c313e1b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/MeltDaBot.cs using Guid(9e9b289f6e040274e9e78f0c313e1b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c7edda6e703af355a558b4192f9a7d') in 0.003916 seconds
-  Import took 0.006176 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001453 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.5 MB.
-System memory in use after: 78.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1756.
-Total: 1.631100 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.419800 ms  DeleteObjects: 0.016900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 419.719234 seconds.
+  Time since last request: 3.342414 seconds.
   path: Assets/animations/ice/icemodel.controller
   artifactKey: Guid(dc9f2e5a1f143024789d58cab97702ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/icemodel.controller using Guid(dc9f2e5a1f143024789d58cab97702ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2965377502456ffbeb5ad0bcfdb9cfb4') in 0.027137 seconds
-  Import took 0.029780 seconds .
+Start importing Assets/animations/ice/icemodel.controller using Guid(dc9f2e5a1f143024789d58cab97702ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b88ae471dc7ceca3f308d6347a8409') in 0.008889 seconds
+  Import took 0.011787 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.508180 seconds.
-  path: Assets/animations
-  artifactKey: Guid(407233b85c1a8434abfc0d5f498d574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations using Guid(407233b85c1a8434abfc0d5f498d574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ea091b32d83ab58d046d46dcc070f7') in 0.003675 seconds
-  Import took 0.006207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000730 seconds.
-  path: Assets/animations
-  artifactKey: Guid(407233b85c1a8434abfc0d5f498d574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations using Guid(407233b85c1a8434abfc0d5f498d574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ea091b32d83ab58d046d46dcc070f7') in 0.003272 seconds
-  Import took 0.005397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.628993 seconds.
-  path: Assets/animations/ice
-  artifactKey: Guid(7d1bdfe045a4e7a43ba6fadc95482708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice using Guid(7d1bdfe045a4e7a43ba6fadc95482708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c27358bfe164800477cb34015969463') in 0.003598 seconds
-  Import took 0.006053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000646 seconds.
-  path: Assets/animations/ice
-  artifactKey: Guid(7d1bdfe045a4e7a43ba6fadc95482708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice using Guid(7d1bdfe045a4e7a43ba6fadc95482708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c27358bfe164800477cb34015969463') in 0.003321 seconds
-  Import took 0.005830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.546153 seconds.
-  path: Assets/animations/ice/ice_melt_area3.anim
-  artifactKey: Guid(4d02e8700532f3a46a09ea4a854dcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/ice_melt_area3.anim using Guid(4d02e8700532f3a46a09ea4a854dcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2afef82aae5dc7d96cd55614a948ca1') in 0.007753 seconds
-  Import took 0.009948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023491 seconds.
-  path: Assets/animations/ice/ice_melt_area3.anim
-  artifactKey: Guid(4d02e8700532f3a46a09ea4a854dcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/ice_melt_area3.anim using Guid(4d02e8700532f3a46a09ea4a854dcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2afef82aae5dc7d96cd55614a948ca1') in 0.005382 seconds
-  Import took 0.008542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.920901 seconds.
-  path: Assets/animations/ice/icemodel (2).controller
-  artifactKey: Guid(f95bc4d6c78f1a049bcf70f4de8bc320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/icemodel (2).controller using Guid(f95bc4d6c78f1a049bcf70f4de8bc320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fac6982c5030bcf8a655db20ccde06') in 0.007201 seconds
-  Import took 0.009830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000851 seconds.
-  path: Assets/animations/ice/icemodel (2).controller
-  artifactKey: Guid(f95bc4d6c78f1a049bcf70f4de8bc320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/icemodel (2).controller using Guid(f95bc4d6c78f1a049bcf70f4de8bc320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fac6982c5030bcf8a655db20ccde06') in 0.004970 seconds
-  Import took 0.007167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.019332 seconds.
+  Time since last request: 0.984700 seconds.
   path: Assets/animations/ice/icemodel_area3_1.controller
   artifactKey: Guid(1d105a8ae88ef0b4596b706e87f3f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/icemodel_area3_1.controller using Guid(1d105a8ae88ef0b4596b706e87f3f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaf262dc2001a3408f74f56de170759') in 0.005504 seconds
-  Import took 0.007928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001669 seconds.
-  path: Assets/animations/ice/icemodel_area3_1.controller
-  artifactKey: Guid(1d105a8ae88ef0b4596b706e87f3f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/icemodel_area3_1.controller using Guid(1d105a8ae88ef0b4596b706e87f3f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaf262dc2001a3408f74f56de170759') in 0.004556 seconds
-  Import took 0.006779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.573962 seconds.
-  path: Assets/animations/ice/icemodel_area3_2.controller
-  artifactKey: Guid(19c72ccb338a1184b9cb888b22254d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/icemodel_area3_2.controller using Guid(19c72ccb338a1184b9cb888b22254d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e99cbd777fd811f32e1c9a33e4c428') in 0.005971 seconds
-  Import took 0.008214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000855 seconds.
-  path: Assets/animations/ice/icemodel_area3_2.controller
-  artifactKey: Guid(19c72ccb338a1184b9cb888b22254d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/icemodel_area3_2.controller using Guid(19c72ccb338a1184b9cb888b22254d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e99cbd777fd811f32e1c9a33e4c428') in 0.004794 seconds
-  Import took 0.007992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.277234 seconds.
-  path: Assets/animations/ice/ice_melt_area3_2.anim
-  artifactKey: Guid(ec2bcf8b0dfad8340829f4b521491ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/ice_melt_area3_2.anim using Guid(ec2bcf8b0dfad8340829f4b521491ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c975d06215d9d6d581cbecd2110596') in 0.005619 seconds
-  Import took 0.007708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.973603 seconds.
-  path: Assets/animations/door/Plane (71).controller
-  artifactKey: Guid(7a5241bc8d0f8804bac40a540b0174cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/door/Plane (71).controller using Guid(7a5241bc8d0f8804bac40a540b0174cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0574287d7b103c19d6d24b50bff335dc') in 0.005825 seconds
-  Import took 0.008282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.484696 seconds.
-  path: Assets/animations/ice/ice_melt_area3.anim
-  artifactKey: Guid(4d02e8700532f3a46a09ea4a854dcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/ice_melt_area3.anim using Guid(4d02e8700532f3a46a09ea4a854dcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aedab43bcd22432418584fc080454d') in 0.004043 seconds
-  Import took 0.006567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.470989 seconds.
-  path: Assets/animations/ice/ice_melt.anim
-  artifactKey: Guid(7b8ee4c4ccd83f5478f6d54df5c0e54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/ice_melt.anim using Guid(7b8ee4c4ccd83f5478f6d54df5c0e54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e3de40ce9c0726bfb77c57809bc447') in 0.004801 seconds
-  Import took 0.006929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.417899 seconds.
-  path: Assets/animations/ice/ice_idle.anim
-  artifactKey: Guid(77d18bcf85932104a91c908551a6e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/ice_idle.anim using Guid(77d18bcf85932104a91c908551a6e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3ae32209557b42ce74cdccd5256dd4') in 0.005058 seconds
-  Import took 0.007323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.745658 seconds.
-  path: Assets/animations/ice/ice_melt_area3_2.anim
-  artifactKey: Guid(ec2bcf8b0dfad8340829f4b521491ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/ice/ice_melt_area3_2.anim using Guid(ec2bcf8b0dfad8340829f4b521491ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42435afcd7d72ca970a98ffaabcc3cb0') in 0.005994 seconds
-  Import took 0.008360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.501689 seconds.
-  path: Assets/animations/door
-  artifactKey: Guid(a12e7f326192a934f9ed871e3269f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/door using Guid(a12e7f326192a934f9ed871e3269f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fbf92d2895145b6c7c8b2907967aae') in 0.003328 seconds
-  Import took 0.005495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000696 seconds.
-  path: Assets/animations/door
-  artifactKey: Guid(a12e7f326192a934f9ed871e3269f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/door using Guid(a12e7f326192a934f9ed871e3269f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fbf92d2895145b6c7c8b2907967aae') in 0.003593 seconds
-  Import took 0.005831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.129324 seconds.
-  path: Assets/animations/door/door_open_idle.anim
-  artifactKey: Guid(ec243d6c553a7504b96ec5efdfab5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/door/door_open_idle.anim using Guid(ec243d6c553a7504b96ec5efdfab5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2881f6b64ff05bc92ca5962e2907ead3') in 0.004217 seconds
-  Import took 0.006445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.483633 seconds.
-  path: Assets/animations/door/door_open.anim
-  artifactKey: Guid(d1a567a70745b4e4abb3bf2110c19a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/door/door_open.anim using Guid(d1a567a70745b4e4abb3bf2110c19a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f85b57d2bff268fe68a5fbc02b788e3') in 0.005726 seconds
-  Import took 0.008009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.285070 seconds.
-  path: Assets/animations/door/door_level_3.anim
-  artifactKey: Guid(07c8b2bb194fd6a4e9a5f189782e117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/door/door_level_3.anim using Guid(07c8b2bb194fd6a4e9a5f189782e117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4f44261e6d6127a23642b84dfbbe78') in 0.004960 seconds
-  Import took 0.007218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.824811 seconds.
-  path: Assets/animations/door/idle_door_2.anim
-  artifactKey: Guid(879121f1fb200b94abf29c6152b8616c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animations/door/idle_door_2.anim using Guid(879121f1fb200b94abf29c6152b8616c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a846932bd0edccea85b9498015758d') in 0.004176 seconds
-  Import took 0.007017 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000879 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1262 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.5 MB.
-System memory in use after: 78.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1759.
-Total: 2.162400 ms (FindLiveObjects: 0.174200 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.890500 ms  DeleteObjects: 0.051900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000923 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1262 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.6 MB.
-System memory in use after: 78.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1762.
-Total: 1.561900 ms (FindLiveObjects: 0.143600 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.361800 ms  DeleteObjects: 0.014000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 357.368451 seconds.
-  path: Assets/VideoPlayer
-  artifactKey: Guid(119402ceffadb574fa2d6643d0427ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer using Guid(119402ceffadb574fa2d6643d0427ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36747de3c215c0132d7170c1638442f') in 0.005846 seconds
-  Import took 0.008443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015392 seconds.
-  path: Assets/VideoPlayer/cutscene_lvl_1.mp4
-  artifactKey: Guid(290c5c3a00442214fad14654d1b3a8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/cutscene_lvl_1.mp4 using Guid(290c5c3a00442214fad14654d1b3a8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd186b6bc3e03dd58411a3317932225db') in 0.058029 seconds
-  Import took 0.060275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/VideoPlayer/VideoTexture.renderTexture
-  artifactKey: Guid(0a437c877a5ecb1429c95f4264dd8ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/VideoTexture.renderTexture using Guid(0a437c877a5ecb1429c95f4264dd8ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea410e35cd84e618730fef9d53064e93') in 0.050598 seconds
-  Import took 0.052645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/VideoPlayer/title_sequence.mp4
-  artifactKey: Guid(2ef17609d1e694848887ab61f41d042b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/title_sequence.mp4 using Guid(2ef17609d1e694848887ab61f41d042b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9bab5b08b4a22501b4bd9cea0e848a') in 0.003932 seconds
-  Import took 0.005942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/VideoPlayer/level_2.mp4
-  artifactKey: Guid(3b37ee5a64c425043a3aa4151521f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/level_2.mp4 using Guid(3b37ee5a64c425043a3aa4151521f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60c674526cb8bb15fe50e5d70cccdd8') in 0.005200 seconds
-  Import took 0.007459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/VideoPlayer/start.mp4
-  artifactKey: Guid(dcebb2bdcc233464fb12440ea6869c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/start.mp4 using Guid(dcebb2bdcc233464fb12440ea6869c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb6a4386b2cb221089134bd9631e227') in 0.004396 seconds
-  Import took 0.006643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/VideoPlayer/start.gif
-  artifactKey: Guid(2fa7dc3dc73946c4ea420753e3c0607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/start.gif using Guid(2fa7dc3dc73946c4ea420753e3c0607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd751f52b1f44d69b4f2adfce4b18b1') in 0.049834 seconds
-  Import took 0.052080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/VideoPlayer/VideoTexture_2.renderTexture
-  artifactKey: Guid(1ee16eee9acc92d4aa47796bae89431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/VideoTexture_2.renderTexture using Guid(1ee16eee9acc92d4aa47796bae89431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373aa3eb5a9032f8557c6835fb9e1596') in 0.009797 seconds
-  Import took 0.011848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.669774 seconds.
-  path: Assets/VideoPlayer/cutscene_lvl_3.mp4
-  artifactKey: Guid(b2dbaba181d9a0c4e82eb4d678fe773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/cutscene_lvl_3.mp4 using Guid(b2dbaba181d9a0c4e82eb4d678fe773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05f302d009b4094c91a9160d00b3da1') in 0.004921 seconds
-  Import took 0.007321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.067157 seconds.
-  path: Assets/VideoPlayer/ending_cutscene.mp4
-  artifactKey: Guid(56293273f9491454b8649deb9497b37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/ending_cutscene.mp4 using Guid(56293273f9491454b8649deb9497b37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7576da5d7eadbb331e61dee22ca634') in 0.004784 seconds
-  Import took 0.007141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.348094 seconds.
-  path: Assets/VideoPlayer/final_room.mp4
-  artifactKey: Guid(db87f9d2b5bbe34458ce011dfbdc12ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayer/final_room.mp4 using Guid(db87f9d2b5bbe34458ce011dfbdc12ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18be5a580e74e07a9572243b5577715f') in 0.004164 seconds
-  Import took 0.007194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.242108 seconds.
-  path: Assets/Scenes/levels
-  artifactKey: Guid(46f82fbbd5179914ea1ecd0f673af832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/levels using Guid(46f82fbbd5179914ea1ecd0f673af832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaefe09427f5493a165caf688c0441e') in 0.004058 seconds
-  Import took 0.006617 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000959 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.815 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1262 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.6 MB.
-System memory in use after: 81.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1770.
-Total: 1.534200 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.339100 ms  DeleteObjects: 0.013400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000979 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1262 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.6 MB.
-System memory in use after: 81.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1773.
-Total: 1.561700 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.354200 ms  DeleteObjects: 0.014000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1262 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.6 MB.
-System memory in use after: 81.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1776.
-Total: 2.164600 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.868300 ms  DeleteObjects: 0.017900 ms)
+Start importing Assets/animations/ice/icemodel_area3_1.controller using Guid(1d105a8ae88ef0b4596b706e87f3f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05a8449cbb6a9f4355b4214d43aa540') in 0.006392 seconds
+  Import took 0.008537 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
