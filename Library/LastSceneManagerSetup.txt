@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Scenes/levels/level4.unity
+<<<<<<< Updated upstream
+- path: Assets/Scenes/title.unity
+=======
+- path: Assets/Scenes/cutscenes/cutscene_level_2.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
